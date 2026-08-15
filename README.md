@@ -1,4 +1,67 @@
-vetcare-pro-clinic/
+# 🐾 VetCare - Veterinary Clinic Management Platform
+
+A full-stack veterinary clinic management system built with the MERN stack (MongoDB, Express.js, React, Node.js). VetCare helps veterinary clinics digitize pet health records, manage appointments, handle billing, and streamline staff operations.
+
+## 🚀 Live Demo
+
+**Frontend:** https://vetcare-mern-website-2.onrender.com
+
+**Backend API:** https://vetcare-mern-website-1.onrender.com
+
+---
+
+## 📋 Features
+
+### 🔐 Authentication & Authorization
+- JWT-based authentication
+- Role-based access control (Admin, Vet, Nurse, Receptionist)
+- Secure login and registration
+
+### 🐶 Pet Management
+- Add, view, update, and delete pet records
+- Store medical history and treatment details
+- Advanced pet search functionality
+
+### 📅 Appointment Scheduling
+- Create and manage appointments
+- Real-time appointment status updates
+- View appointments by date, doctor, or status
+
+### 👨‍⚕️ Staff Management
+- Manage staff profiles (Doctors, Nurses, Receptionists)
+- Role-based permissions
+- Staff availability tracking
+
+### 💰 Billing & Invoices
+- Generate invoices for services
+- Track payment status
+- Billing history
+
+### 📊 Reports & Analytics
+- Dashboard with key metrics
+- Appointment statistics
+- Revenue reports
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Tailwind CSS
+- Context API (State Management)
+- React Router
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB (Mongoose ODM)
+- JWT Authentication
+
+---
+
+## 📁 Project Structure
+VETCARE-MERN-WEBSITE/
 │
 ├── backend/
 │ ├── models/
@@ -26,8 +89,7 @@ vetcare-pro-clinic/
 │
 ├── frontend/
 │ ├── public/
-│ │ ├── index.html
-│ │ └── favicon.ico
+│ │ └── index.html
 │ │
 │ ├── src/
 │ │ ├── components/
@@ -53,4 +115,5 @@ vetcare-pro-clinic/
 │ ├── tailwind.config.js
 │ └── postcss.config.js
 │
+├── .gitignore
 └── README.md
